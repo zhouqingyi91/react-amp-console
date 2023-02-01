@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/s3/album": {
+      "name": "/s3/album",
+      "lambdaFunction": "getS3AlbumPhotosLambda",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
