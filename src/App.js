@@ -29,7 +29,7 @@ function App() {
     <div className="App">
       {IMG_DATA && IMG_DATA.map((url, idx) => {
         console.log(url);
-        return <img src={prefix + url.path} key={idx} height="200px" width={"200px"} />
+        return <img src={prefix + url.path} key={idx} width={"200px"} />
       })}
     </div>
   );
